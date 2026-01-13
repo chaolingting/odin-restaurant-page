@@ -1,0 +1,67 @@
+/* styles.css */
+
+:root {
+  font-size: 15px;
+
+  --main-font: 'Poppins', sans-serif;
+  --handwriting-font: 'Playwrite CA', cursive;
+}
+
+
+body, button, input, select {
+  font-family: var(--main-font);
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 2rem 4rem;
+  display: flex;
+  gap: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 0.5rem 0.8rem;
+  font-family: var(--main-font); 
+  background-color: white;
+  border: 1px solid salmon;
+  
+ 
+}
+
+
+.menu-bg {
+  background-color: pink;
+}
+
+
+.about-bg {
+  background-color: lightcyan;
+}
+
+.home-bg {
+  background-color: coral;
+}
+
+#content {
+  padding: 2rem;
+  
+}
+
+
+.aside-content {
+  width: 300px;
+
+  background-color: cadetblue;
+}
+
+.content-div {
+  display: flex;
+}
